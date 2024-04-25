@@ -15,13 +15,13 @@ public class TestCases {
         driver.manage().window().maximize();
     }
 
-    public void endTest()
-    {
-        System.out.println("End Test: TestCases");
-        driver.close();
-        driver.quit();
+    // public void endTest()
+    // {
+    //     System.out.println("End Test: TestCases");
+    //     // driver.close();
+    //     // driver.quit();
 
-    }
+    // }
 
     
     public  void testCase01(){
